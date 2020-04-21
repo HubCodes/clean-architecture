@@ -2,13 +2,14 @@ package entity.article
 
 import java.time.LocalDateTime
 
+import entity.text.Text
 import entity.user.User
 
 final case class Article(
   id: Article.ID,
   title: String,
   author: User.ID,
-  content: String,
+  contents: Set[Text.ID],
   attachments: Set[Attachment.ID],
   createdAt: LocalDateTime,
   modifiedAt: LocalDateTime)
