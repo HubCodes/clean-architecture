@@ -9,7 +9,7 @@ final case class Article(
   id: Article.ID,
   title: String,
   author: User.ID,
-  contents: Set[Text.ID],
+  contents: Seq[Text.ID],
   attachments: Set[Attachment.ID],
   createdAt: LocalDateTime,
   modifiedAt: LocalDateTime)
