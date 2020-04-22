@@ -2,7 +2,6 @@ package entity.article
 
 import java.time.LocalDateTime
 
-import entity.text.Text
 import entity.user.User
 
 final case class Article(

@@ -1,4 +1,4 @@
-package entity.text
+package entity.article
 
 sealed abstract class ProgrammingLanguage
 
