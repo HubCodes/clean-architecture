@@ -1,4 +1,4 @@
-package entity.account
+package entity.user
 
 final case class LoginID private[account](value: String)
 

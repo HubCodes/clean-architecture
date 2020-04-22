@@ -1,4 +1,4 @@
-package entity.account
+package entity.user
 
 import java.time.LocalDateTime
 

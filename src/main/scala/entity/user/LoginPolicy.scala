@@ -1,4 +1,4 @@
-package entity.account
+package entity.user
 
 sealed abstract class LoginPolicy
 
